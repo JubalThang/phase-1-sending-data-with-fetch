@@ -5,11 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
     <title>JavaScript Lab</title>
   </head>
 
   <body>
-    <script src="index.js"></script>
+    <header class="menu">
+      <h1>Sending Data with Fetch</h1>
+      <nav>
+        <ul class="nav-bar">
+          <li>Load Dogs</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="card">
+      <form action="http://localhost:3000/dogs" id="dog-form">
+        <label>Dog Name: </label>
+        <input type="text" id="dogName" placeholder="Dog name ...">
+        <label>Dog Breed: <input type="text" id="dogBreed" placeholder="Dog breed ..."></label>
+        <input type="submit" id="submitDog" value="Submit">
+      </form>
+    </div>
+    <div class='card' id="dog-lists"></div>
   </body>
 
 </html>

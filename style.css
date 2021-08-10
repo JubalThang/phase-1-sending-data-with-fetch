@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: all 0.5s;
+}
+
+.card {
+    width: 75%;
+    margin: auto;
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    border: solid 1px #4caf50;
+    color:  #4caf50;
+}
+form label {
+    padding: 8px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4aa4c7;
+    color: wheat;
+    padding: 5px;
+}
+.nav-bar {
+    list-style: none;
+    padding: 10;
+}
+.nav-bar li {
+    margin: 8px 0 0 0;
+}
+.nav-bar li:hover {
+    color: tomato;
+}
